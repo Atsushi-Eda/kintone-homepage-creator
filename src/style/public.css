@@ -1,0 +1,45 @@
+body > main,
+body > .mh3 {
+  display: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.homepage-creator--public img,
+.homepage-creator--public video {
+  max-width: 100%;
+}
+.homepage-creator--row {
+  width: 100%;
+}
+.homepage-creator--reference-element {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepage-creator--box-element .homepage-creator--row:not(:last-child),
+.homepage-creator--reference-record .homepage-creator--row:not(:last-child) {
+  padding-bottom: 4px;
+}
+.homepage-creator--box-element,
+.homepage-creator--reference-record {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.homepage-creator--element {
+  display: inline-block;
+}
+.homepage-creator--public {
+  font-size: 1.25rem;
+}
+.homepage-creator--public .ql-size-small {
+  font-size: 1rem;
+}
+.homepage-creator--public .ql-size-large {
+  font-size: 2rem;
+}
+.homepage-creator--public .ql-size-huge {
+  font-size: 4rem;
+}

@@ -1,0 +1,88 @@
+.homepage-creator * {
+  box-sizing: border-box;
+}
+.homepage-creator img,
+.homepage-creator video {
+  max-width: 100%;
+}
+.homepage-creator--tools {
+  display: inline-block;
+  width: 305px;
+  margin-left: 25px;
+  vertical-align: top;
+  max-height: calc(100vh - 262px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.homepage-creator--tool-title {
+  font-size: 1rem;
+  padding-bottom: 6px;
+}
+.homepage-creator--tool-title > * {
+  vertical-align: bottom;
+}
+.homepage-creator--element-setting,
+.homepage-creator--add-element-buttons {
+  padding-bottom: 12px;
+}
+.homepage-creator--preview {
+  display: inline-block;
+  width: calc(100% - 330px);
+  outline: #dddddd solid 1px;
+  height: calc(100vh - 262px);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.homepage-creator--row {
+  width: 100%;
+  outline: 2px dashed rgba(0, 0, 0, 0);
+  outline-offset: -2px;
+  min-height: 2px;
+}
+.box-vertical-align-top .homepage-creator--row:last-child,
+.box-vertical-align-center .homepage-creator--row:first-child,
+.box-vertical-align-center .homepage-creator--row:last-child,
+.box-vertical-align-bottom .homepage-creator--row:first-child {
+  flex: auto;
+}
+.homepage-creator--row > * {
+  vertical-align: top;
+}
+.homepage-creator--reference-element {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepage-creator--box-element,
+.homepage-creator--reference-record {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.homepage-creator--element {
+  user-select: none;
+  display: inline-block;
+  outline: 2px dashed rgba(0, 0, 0, 0);
+  outline-offset: -2px;
+}
+.homepage-creator--reference-field-element-error {
+  color: red;
+}
+.homepage-creator--preview {
+  font-size: 1.25rem;
+}
+.homepage-creator--preview .ql-size-small {
+  font-size: 1rem;
+}
+.homepage-creator--preview .ql-size-large {
+  font-size: 2rem;
+}
+.homepage-creator--preview .ql-size-huge {
+  font-size: 4rem;
+}
+.homepage-creator .ql-editor .ql-size-large {
+  font-size: 1.2rem;
+}
+.homepage-creator .ql-editor .ql-size-huge {
+  font-size: 1.8rem;
+}
